@@ -1,0 +1,105 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent
+}
+body {
+    line-height: 1
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block
+}
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    background: #0B131B
+}
+.panel {
+    font-family: 'Source Sans Pro';
+    text-align: left;
+    z-index: 10;
+    width: 620px;
+    margin:0 auto;
+    padding: 20px
+}
+.panel h1 {
+    font-size: 1.8em;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #F0F0F0
+}
+.panel h2 {
+    color: #F0F0F0;
+    font-weight: 100;
+    font-size: 1.0em;
+    margin-bottom: 10px;
+    text-align: left;
+    line-height: 1.3em
+}
+#contribute {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 16em;
+    height: 10em;
+    overflow: hidden
+}
+#contribute p {
+    background: #F0F0F0;
+    margin: 0;
+    padding: 3px;
+    width: 16em;
+    transform: translate(50%, -50%) rotate(45deg) translate(0, 5em);
+    -webkit-transform: translate(50%, -50%) rotate(45deg) translate(0, 5em)
+}
+#contribute a {
+    display: block;
+    padding: 0.2em 0;
+    text-align: center;
+    border: solid #0B131B 1px;
+    color:#0B131B;
+    font-weight: bold;
+    text-decoration: none
+}
+.snipright{
+    float: right;
+    width: 305px
+}
+.snipleft{
+    float: left;
+    width: 306px
+}
+.block{
+    height: 316px
+}
+.block2{
+    height: 379px
+}
+.block3{
+    height: 363px
+}
+.block4{
+    height: 348px
+}
