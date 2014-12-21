@@ -42,7 +42,7 @@ hljs.registerLanguage('treeview', function(hljs) {
       },
       {
         className : 'file plain',
-        begin : /[^ \n\t  ].+\.(cfg|conf(ig)?|sh|bat|csv|ini|log|md|nfo|txt|asc(iidoc)?|ad(oc)?|tex|pom|properties|lst|project|iml)/,
+        begin : /[^ \n\t  ].+\.(cfg|conf(ig)?|sh|bat|csv|ini|log|md|info|txt|asc(iidoc)?|ad(oc)?|tex|pom|properties|lst|project|iml)/,
         relevance : 0
       },
       {
@@ -57,7 +57,7 @@ hljs.registerLanguage('treeview', function(hljs) {
       },
       {
         className : 'file audio',
-        begin : /[^ \n\t  ].+\.(aac|au|cda|flac|mp(3|2)|oga|ogg|wav|wma|flac|ac3|aac|mac)/,
+        begin : /[^ \n\t  ].+\.(aac|au|cda|flac|mp(3|2)|oga|ogg|wav|wma|flac|ac3|mac)/,
         relevance : 0
       },
       {
