@@ -1,37 +1,38 @@
-/*
-  Authors: Hakan Özler <ozler.hakan@gmail.com>
-  Description: Working directory structure highlighting using highlight.js.
+/**
+ * Treeview syntax highlighting based on highlight.js
+ * Copyright (c) 2014-2015, Asciidocfx Team, (MIT Licensed)
+ * https://github.com/asciidocfx/highlight-treeview.js
  */
 hljs.registerLanguage('treeview', function(hljs) {
   return {
     contains: [
       {
-        className : 'folder-last-branch win',                  
-        begin : /(\\|\`|\└)(\-|\─){3}/,
+        className : 'folder-last-branch win',
+        begin : /(\\|\└)(\-|\─){3}/,
         relevance : 0
       },
       { 
-        className : 'folder-last-branch',                  
-        begin : /(\\|\`|\└)(\-|\─){2}/,
+        className : 'folder-last-branch',
+        begin : /(\`|\└)(\-|\─){2}/,
         relevance : 0
       },
       {
-        className : 'folder-branch win',                  
+        className : 'folder-branch win',
         begin : /(\-|\─){3}/,
         relevance : 0
       },
       { 
-        className : 'folder-branch',                  
+        className : 'folder-branch',
         begin : /(\-|\─){2}/,
         relevance : 0
       },
       {
-        className : 'tvline',                  
+        className : 'tvline',
         begin : /\||\¦|\│|\+|\├/,
         relevance : 0
       },
       {
-        className : 'hiddenfile',                  
+        className : 'hiddenfile',
         begin : /\..+/,
         relevance : 0
       },
@@ -93,7 +94,7 @@ hljs.registerLanguage('treeview', function(hljs) {
       {
         className: 'folder',
         begin: /[^ \n\t  ].+(\/)?/,
-        relevance:0
+        relevance : 0
       }
     ]
   };
